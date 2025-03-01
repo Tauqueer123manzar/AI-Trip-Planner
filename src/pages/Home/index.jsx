@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link} from "react-router-dom"
 const home = () => {
   return (
    <>
@@ -8,7 +8,9 @@ const home = () => {
         <p className='text-4xl text-gray-600 mt-4'>Personalized Itineraries at Your Fingertips</p>
         <p className='mt-4'>Your personal Trip Planner and Travel curator,creating custom Itineraries based on your preferences</p>
 
+        <Link to="/create-trip">
         <button className='bg-black hover:bg-blue-600 text-white px-4 py-2 rounded-lg mt-4 cursor-pointer'>Get Started</button>
+        </Link>
     </div>
    </>
   )
