@@ -28,7 +28,7 @@ const Navbar = () => {
         </ul>
         
         {/* ===================== Login button (visible on desktop only) ============================ */}
-        <button href="/login" className='hidden md:block bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg'>Login</button>
+        <button href="/login" className='hidden md:block bg-black hover:bg-blue-600 text-white px-4 py-2 rounded-lg'>Login</button>
       </div>
       {/* ===================== Navigation links (visible on mobile only) ============================ */}
       {isMenuOpen && (
